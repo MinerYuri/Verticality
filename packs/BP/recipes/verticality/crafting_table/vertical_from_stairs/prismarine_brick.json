@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:prismarine_brick_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:prismarine_bricks_stairs"
+        ],
+        "unlock": [
+            "minecraft:prismarine_bricks_stairs"
+        ],
+        "result": [
+            "verticality:prismarine_brick_vertical_stairs"
+        ]
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "verticality:prismarine_brick_step",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:vertical_half"
+                    ]
+                },
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/verticality/vsp/prismarine_brick.json",
+            "minecraft:tags": ["is_pickaxe_item_destructible"],
+            "verticality:vertical_slab": {},
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [-8, 0, -8],
+                    "size": [16, 8, 8]
+                }
+            ],
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 8, 8]
+            },
+            "minecraft:sound": {
+                "sound": "stone"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5.00,"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier')"},"destroy_speed":0.75},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier')"},"destroy_speed":0.38},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier')"},"destroy_speed":0.30},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier')"},"destroy_speed":0.25},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier')"},"destroy_speed":0.19},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier')"},"destroy_speed":0.17},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier')"},"destroy_speed":0.13}]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 30
+            },
+            "minecraft:map_color": "#5CDDD3",
+            "minecraft:item_visual": {
+                "geometry": "geometry.verticality.step.bottom",
+                "material_instances": {
+                    "*": {
+                        "render_method": "opaque",
+                        "texture": "prismarine_bricks"
+                    }
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.verticality.step.bottom",
+                "culling": "verticality:culling.step.bottom",
+                "culling_layer": "verticality:culling_layer.step",
+                "culling_shape": "verticality:step.bottom",
+                "uv_lock": true
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "opaque",
+                    "texture": "prismarine_bricks"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:collision_box": [
+                        {
+                            "origin": [-8, 8, -8],
+                            "size": [16, 8, 8]
+                        }
+                    ],
+                    "minecraft:selection_box": {
+                        "origin": [-8, 8, -8],
+                        "size": [16, 8, 8]
+                    },
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.step.top",
+                        "culling": "verticality:culling.step.top",
+                        "culling_layer": "verticality:culling_layer.step.top",
+                        "culling_shape": "verticality:step.top",
+                        "uv_lock": true
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            }
+        ]
+    }
+}

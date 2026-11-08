@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Verticality",
+		"description": "Adds vertical slabs to the game.",
+		"uuid": "8a26d4c5-9a05-4806-9d37-b8cf81294de8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 26, 0]
+	},
+	"metadata": {
+		"license": "GNU GPL v3",
+		"authors": ["MinerYuri"],
+		"product_type": "addon"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1d739bd4-e53f-4f50-ae13-6af438bbd4ab",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "642dcf23-5238-4001-8f56-3014c51cb19f",
+			"version": [1, 0, 0]
+		}
+	],
+	"capabilities": [
+		"pbr"
+	]
+}

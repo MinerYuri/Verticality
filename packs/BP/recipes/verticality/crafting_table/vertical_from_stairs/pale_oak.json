@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:pale_oak_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:pale_oak_stairs"
+        ],
+        "unlock": [
+            "minecraft:pale_oak_stairs"
+        ],
+        "result": [
+            "verticality:pale_oak_vertical_stairs"
+        ]
+    }
+}

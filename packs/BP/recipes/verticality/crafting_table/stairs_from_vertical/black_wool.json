@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:black_wool_stairs_from_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:black_wool_vertical_stairs"
+        ],
+        "unlock": [
+            "verticality:black_wool_vertical_stairs"
+        ],
+        "result": [
+            "minecraft:black_wool_stairs"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:slabidentifier_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:birch_step"
+        ],
+        "unlock": [
+            "verticality:birch_step"
+        ],
+        "result": [
+            "verticality:birch_vertical_step"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:orange_wool_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:orange_wool_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:orange_wool_slab"
+        ],
+        "result": {
+            "item": "verticality:orange_wool_step",
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:bamboo_mosaic_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:bamboo_mosaic_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:bamboo_mosaic_slab"
+        ],
+        "result": {
+            "item": "verticality:bamboo_mosaic_step",
+            "count": 4
+        }
+    }
+}

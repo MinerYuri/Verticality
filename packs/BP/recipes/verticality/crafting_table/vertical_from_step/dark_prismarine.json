@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:slabidentifier_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:dark_prismarine_step"
+        ],
+        "unlock": [
+            "verticality:dark_prismarine_step"
+        ],
+        "result": [
+            "verticality:dark_prismarine_vertical_step"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:gray_concrete_stairs_from_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:gray_concrete_vertical_stairs"
+        ],
+        "unlock": [
+            "verticality:gray_concrete_vertical_stairs"
+        ],
+        "result": [
+            "minecraft:gray_concrete_stairs"
+        ]
+    }
+}

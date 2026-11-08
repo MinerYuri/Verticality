@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:granite_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:granite_stairs"
+        ],
+        "unlock": [
+            "minecraft:granite_stairs"
+        ],
+        "result": [
+            "verticality:granite_vertical_stairs"
+        ]
+    }
+}

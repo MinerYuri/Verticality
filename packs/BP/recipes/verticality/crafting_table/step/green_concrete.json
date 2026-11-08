@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:green_concrete_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:green_concrete_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:green_concrete_slab"
+        ],
+        "result": {
+            "item": "verticality:green_concrete_step",
+            "count": 4
+        }
+    }
+}

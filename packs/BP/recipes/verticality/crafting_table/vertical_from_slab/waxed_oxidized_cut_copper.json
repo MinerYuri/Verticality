@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:waxed_oxidized_cut_copper_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:waxed_oxidized_cut_copper_slab"
+        ],
+        "unlock": [
+            "minecraft:waxed_oxidized_cut_copper_slab"
+        ],
+        "result": [
+            "verticality:waxed_oxidized_cut_copper_vertical_slab"
+        ]
+    }
+}

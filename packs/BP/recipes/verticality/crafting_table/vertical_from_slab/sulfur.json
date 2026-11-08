@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:sulfur_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:sulfur_slab"
+        ],
+        "unlock": [
+            "minecraft:sulfur_slab"
+        ],
+        "result": [
+            "verticality:sulfur_vertical_slab"
+        ]
+    }
+}

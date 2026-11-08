@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:crimson_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:crimson_slab"
+        ],
+        "unlock": [
+            "minecraft:crimson_slab"
+        ],
+        "result": [
+            "verticality:crimson_vertical_slab"
+        ]
+    }
+}

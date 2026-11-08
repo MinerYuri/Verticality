@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:purpur_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:purpur_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:purpur_slab"
+        ],
+        "result": {
+            "item": "verticality:purpur_step",
+            "count": 4
+        }
+    }
+}

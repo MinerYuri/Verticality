@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:jungle_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:jungle_slab"
+        ],
+        "unlock": [
+            "minecraft:jungle_slab"
+        ],
+        "result": [
+            "verticality:jungle_vertical_slab"
+        ]
+    }
+}

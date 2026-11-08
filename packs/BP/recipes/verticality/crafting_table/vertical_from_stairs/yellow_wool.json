@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:yellow_wool_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:yellow_wool_stairs"
+        ],
+        "unlock": [
+            "minecraft:yellow_wool_stairs"
+        ],
+        "result": [
+            "verticality:yellow_wool_vertical_stairs"
+        ]
+    }
+}

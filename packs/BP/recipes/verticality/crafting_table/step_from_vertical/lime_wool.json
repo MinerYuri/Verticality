@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:lime_wool_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:lime_wool_vertical_step"
+        ],
+        "unlock": [
+            "verticality:lime_wool_vertical_step"
+        ],
+        "result": [
+            "verticality:lime_wool_step"
+        ]
+    }
+}

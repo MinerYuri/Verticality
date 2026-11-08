@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:yellow_wool_slab_from_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:yellow_wool_vertical_slab"
+        ],
+        "unlock": [
+            "verticality:yellow_wool_vertical_slab"
+        ],
+        "result": [
+            "minecraft:yellow_wool_slab"
+        ]
+    }
+}

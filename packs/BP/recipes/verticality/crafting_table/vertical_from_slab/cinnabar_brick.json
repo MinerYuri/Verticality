@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:cinnabar_brick_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:cinnabar_brick_slab"
+        ],
+        "unlock": [
+            "minecraft:cinnabar_brick_slab"
+        ],
+        "result": [
+            "verticality:cinnabar_brick_vertical_slab"
+        ]
+    }
+}

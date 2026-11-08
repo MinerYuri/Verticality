@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:poplar_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:poplar_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:poplar_slab"
+        ],
+        "result": {
+            "item": "verticality:poplar_step",
+            "count": 4
+        }
+    }
+}

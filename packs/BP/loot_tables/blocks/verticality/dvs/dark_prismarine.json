@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "conditions":[{"condition":"match_tool","minecraft:match_tool_filter_all": ["minecraft:is_pickaxe"]}],
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 2,
+                    "name": "verticality:dark_prismarine_vertical_slab"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:warped_stairs_from_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:warped_vertical_stairs"
+        ],
+        "unlock": [
+            "verticality:warped_vertical_stairs"
+        ],
+        "result": [
+            "minecraft:warped_stairs"
+        ]
+    }
+}

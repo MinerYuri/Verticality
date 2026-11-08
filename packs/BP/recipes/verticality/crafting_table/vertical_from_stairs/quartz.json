@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:quartz_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:quartz_stairs"
+        ],
+        "unlock": [
+            "minecraft:quartz_stairs"
+        ],
+        "result": [
+            "verticality:quartz_vertical_stairs"
+        ]
+    }
+}

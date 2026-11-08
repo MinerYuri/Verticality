@@ -1,0 +1,131 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "verticality:black_wool_vertical_slab",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/verticality/vsl/black_wool.json",
+            "minecraft:tags": ["is_shears_item_destructible"],
+            "verticality:vertical_slab": {},
+            "minecraft:support": {
+                "shape": "stair"
+            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [-8, 0, -8],
+                    "size": [16, 16, 8]
+                }
+            ],
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 16, 8]
+            },
+            "minecraft:sound": {
+                "sound": "cloth"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.80,"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_shears')"},"destroy_speed":0.16}]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 30
+            },
+            "minecraft:map_color": "#191919",
+            "minecraft:item_visual": {
+                "geometry": "geometry.verticality.vertical_slab",
+                "material_instances": {
+                    "*": {
+                        "render_method": "opaque",
+                        "texture": "wool_colored_black"
+                    }
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.verticality.vertical_slab",
+                "culling": "verticality:culling.vertical_slab",
+                "culling_layer": "verticality:culling_layer.vertical_slab",
+                "culling_shape": "verticality:vertical_slab",
+                "uv_lock": true
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "opaque",
+                    "texture": "wool_colored_black"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_slab",
+                        "culling": "verticality:culling.vertical_slab",
+                        "culling_layer": "verticality:culling_layer.vertical_slab.north",
+                        "culling_shape": "verticality:vertical_slab",
+                        "uv_lock": true
+                    },
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_slab",
+                        "culling": "verticality:culling.vertical_slab",
+                        "culling_layer": "verticality:culling_layer.vertical_slab.west",
+                        "culling_shape": "verticality:vertical_slab",
+                        "uv_lock": true
+                    },
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_slab",
+                        "culling": "verticality:culling.vertical_slab",
+                        "culling_layer": "verticality:culling_layer.vertical_slab.south",
+                        "culling_shape": "verticality:vertical_slab",
+                        "uv_lock": true
+                    },
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_slab",
+                        "culling": "verticality:culling.vertical_slab",
+                        "culling_layer": "verticality:culling_layer.vertical_slab.east",
+                        "culling_shape": "verticality:vertical_slab",
+                        "uv_lock": true
+                    },
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            }
+        ]
+    }
+}

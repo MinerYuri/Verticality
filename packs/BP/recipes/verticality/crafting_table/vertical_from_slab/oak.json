@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:oak_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:oak_slab"
+        ],
+        "unlock": [
+            "minecraft:oak_slab"
+        ],
+        "result": [
+            "verticality:oak_vertical_slab"
+        ]
+    }
+}

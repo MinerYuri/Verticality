@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:magenta_concrete_stairs_from_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:magenta_concrete_vertical_stairs"
+        ],
+        "unlock": [
+            "verticality:magenta_concrete_vertical_stairs"
+        ],
+        "result": [
+            "minecraft:magenta_concrete_stairs"
+        ]
+    }
+}

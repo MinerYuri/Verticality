@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:mossy_cobblestone_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:mossy_cobblestone_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:mossy_cobblestone_slab"
+        ],
+        "result": {
+            "item": "verticality:mossy_cobblestone_step",
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "verticality:double_smooth_red_sandstone_vertical_slab",
+            "menu_category": {
+                "category": "none",
+                "is_hidden_in_commands": false
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/verticality/dvs/smooth_red_sandstone.json",
+            "minecraft:tags": ["is_pickaxe_item_destructible"],
+            "verticality:extra_loot": {
+                "tool": "pickaxe",
+                "amount": 1
+            },
+            "minecraft:sound": {
+                "sound": "stone"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 6.67,"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier')"},"destroy_speed":1.00},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier')"},"destroy_speed":0.50},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier')"},"destroy_speed":0.40},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier')"},"destroy_speed":0.33},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier')"},"destroy_speed":0.25},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier')"},"destroy_speed":0.22},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier')"},"destroy_speed":0.17}]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 4
+            },
+            "minecraft:map_color": "#D87F33",
+            "minecraft:geometry": {
+                "identifier": "geometry.verticality.double_vertical_slab",
+                "culling": "verticality:culling.double_vertical_slab",
+                "culling_shape": "verticality:double_vertical_slab"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "ambient_occlusion": 1.0,
+                    "face_dimming": true,
+                    "render_method": "opaque",
+                    "texture": "smooth_red_sandstone"
+                }
+            },
+            "minecraft:light_dampening": 15
+        }
+    }
+}

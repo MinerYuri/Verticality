@@ -1,0 +1,99 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "verticality:birch_vertical_step",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "verticality:ordinal_direction": ["northeast", "northwest", "southeast", "southwest"]
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/verticality/stp/birch.json",
+            "minecraft:tags": ["is_axe_item_destructible"],
+            "verticality:ordinal_direction": {},
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [0, 0, -8],
+                    "size": [8, 16, 8]
+                }
+            ],
+            "minecraft:selection_box": {
+                "origin": [0, 0, -8],
+                "size": [8, 16, 8]
+            },
+            "minecraft:sound": {
+                "sound": "stepound"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2.00,"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:wooden_tier')"},"destroy_speed":1.00},{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:stone_tier')"},"destroy_speed":0.50},{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:copper_tier')"},"destroy_speed":0.40},{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:iron_tier')"},"destroy_speed":0.33},{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:diamond_tier')"},"destroy_speed":0.25},{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:netherite_tier')"},"destroy_speed":0.22},{"item":{"tags":"q.all_tags('minecraft:is_axe','minecraft:golden_tier')"},"destroy_speed":0.17}]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 15
+            },
+            "minecraft:map_color": "#F7E9A3",
+            "minecraft:item_visual": {
+                "geometry": "geometry.verticality.vertical_step",
+                "material_instances": {
+                    "*": {
+                        "render_method": "opaque",
+                        "texture": "birch_planks"
+                    }
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.verticality.vertical_step",
+                "culling": "verticality:culling.vertical_step",
+                "culling_layer": "verticality:culling_layer.vertical_step",
+                "culling_shape": "verticality:vertical_step",
+                "uv_lock": true
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "opaque",
+                    "texture": "birch_planks"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'northeast'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'southeast'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'southwest'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'northwest'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            }
+        ]
+    }
+}

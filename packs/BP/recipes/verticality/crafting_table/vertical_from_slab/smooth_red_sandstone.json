@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:smooth_red_sandstone_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:smooth_red_sandstone_slab"
+        ],
+        "unlock": [
+            "minecraft:smooth_red_sandstone_slab"
+        ],
+        "result": [
+            "verticality:smooth_red_sandstone_vertical_slab"
+        ]
+    }
+}

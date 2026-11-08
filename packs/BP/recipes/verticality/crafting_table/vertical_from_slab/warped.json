@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:warped_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:warped_slab"
+        ],
+        "unlock": [
+            "minecraft:warped_slab"
+        ],
+        "result": [
+            "verticality:warped_vertical_slab"
+        ]
+    }
+}

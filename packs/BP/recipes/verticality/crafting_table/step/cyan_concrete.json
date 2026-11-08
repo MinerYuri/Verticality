@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:cyan_concrete_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:cyan_concrete_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:cyan_concrete_slab"
+        ],
+        "result": {
+            "item": "verticality:cyan_concrete_step",
+            "count": 4
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:cyan_concrete_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:cyan_concrete_vertical_step"
+        ],
+        "unlock": [
+            "verticality:cyan_concrete_vertical_step"
+        ],
+        "result": [
+            "verticality:cyan_concrete_step"
+        ]
+    }
+}

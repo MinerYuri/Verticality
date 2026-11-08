@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:tuff_brick_stairs_from_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:tuff_brick_vertical_stairs"
+        ],
+        "unlock": [
+            "verticality:tuff_brick_vertical_stairs"
+        ],
+        "result": [
+            "minecraft:tuff_brick_stairs"
+        ]
+    }
+}

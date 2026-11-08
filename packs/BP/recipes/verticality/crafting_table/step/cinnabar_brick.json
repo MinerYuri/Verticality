@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:cinnabar_brick_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:cinnabar_brick_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:cinnabar_brick_slab"
+        ],
+        "result": {
+            "item": "verticality:cinnabar_brick_step",
+            "count": 4
+        }
+    }
+}

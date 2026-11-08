@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:mossy_stone_brick_slab_from_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:mossy_stone_brick_vertical_slab"
+        ],
+        "unlock": [
+            "verticality:mossy_stone_brick_vertical_slab"
+        ],
+        "result": [
+            "minecraft:mossy_stone_brick_slab"
+        ]
+    }
+}

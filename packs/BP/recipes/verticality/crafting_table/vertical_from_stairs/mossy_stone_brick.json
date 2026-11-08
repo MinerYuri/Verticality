@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:mossy_stone_brick_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:mossy_stone_brick_stairs"
+        ],
+        "unlock": [
+            "minecraft:mossy_stone_brick_stairs"
+        ],
+        "result": [
+            "verticality:mossy_stone_brick_vertical_stairs"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:light_blue_concrete_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:light_blue_concrete_stairs"
+        ],
+        "unlock": [
+            "minecraft:light_blue_concrete_stairs"
+        ],
+        "result": [
+            "verticality:light_blue_concrete_vertical_stairs"
+        ]
+    }
+}

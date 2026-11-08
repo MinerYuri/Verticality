@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:polished_blackstone_brick_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:polished_blackstone_brick_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:polished_blackstone_brick_slab"
+        ],
+        "result": {
+            "item": "verticality:polished_blackstone_brick_step",
+            "count": 4
+        }
+    }
+}

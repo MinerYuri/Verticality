@@ -1,0 +1,97 @@
+stone stone 2 6 #707070
+cobblestone stone 2 6 #707070
+mossy_cobblestone stone 2 6 #707070 cobblestone_mossy
+oak wood 2 3 #8F7748 oak_planks
+spruce wood 2 3 #815631 spruce_planks
+birch wood 2 3 #F7E9A3 birch_planks
+jungle wood 2 3 #976D4D jungle_planks
+acacia wood 2 3 #D87F33 acacia_planks
+dark_oak wood 2 3 #664C33 dark_oak_planks
+mangrove wood 2 3 #993333 mangrove_planks
+poplar wood 2 3 #A0A0A0 poplar_planks
+cherry cherry_wood 2 3 #D1B1A1 cherry_planks
+pale_oak wood 2 3 #FFFCF5 pale_oak_planks
+bamboo bamboo_wood 2 3 #E5E533 bamboo_planks
+bamboo_mosaic bamboo_wood 2 3 #E5E533
+stone_brick stone 2 6 #707070 stone_bricks
+mossy_stone_brick stone 1.5 6 #707070 mossy_stone_bricks
+sandstone stone 2 0.8 #F7E9A3 sandstone_side sandstone_side smooth_sandstone sandstone_bottom
+smooth_sandstone stone 2 0.8 #F7E9A3 smooth_sandstone
+red_sandstone stone 2 0.8 #D87F33 redsandstone_side redsandstone_side smooth_red_sandstone redsandstone_bottom
+smooth_red_sandstone stone 2 0.8 #D87F33 smooth_red_sandstone
+granite stone 1.5 6 #976D4D
+polished_granite stone 1.5 6 #976D4D
+diorite stone 1.5 6 #FFFCF5
+polished_diorite stone 1.5 6 #FFFCF5
+andesite stone 1.5 6 #707070
+polished_andesite stone 1.5 6 #707070
+brick stone 2 6 #993333
+nether_brick nether_brick 2 6 #700200
+red_nether_brick nether_brick 2 6 #700200
+end_stone_brick stone 3 9 #F7E9A3 end_bricks
+quartz stone 2 6 #FFFCF5 quartz_block_top
+smooth_quartz stone 2 6 #FFFCF5
+purpur stone 2 6 #B24CD8 purpur_block_top
+prismarine stone 1.5 6 #4C7F99
+dark_prismarine stone 1.5 6 #5CDDD3
+prismarine_brick stone 1.5 6 #5CDDD3 prismarine_bricks
+crimson nether_wood 2 3 #943F61 crimson_planks
+warped nether_wood 2 3 #3A8E8C warped_planks
+blackstone stone 2 6 #191919
+polished_blackstone stone 1.5 6 #191919
+polished_blackstone_brick stone 1.5 6 #191919 polished_blackstone_bricks
+cobbled_deepslate deepslate 1.5 6 #646464
+polished_deepslate deepslate 1.5 6 #646464
+deepslate_tile deepslate_bricks 1.5 6 #646464 deepslate_tiles
+deepslate_brick deepslate_bricks 1.5 6 #646464 deepslate_bricks
+tuff tuff 1.5 6 #392923
+polished_tuff polished_tuff 1.5 6 #392923
+tuff_brick tuff_bricks 1.5 6 #392923 tuff_bricks
+mud_brick mud_bricks 1.5 6 #664C33 mud_bricks
+cut_copper copper 3 6 #D87F33
+exposed_cut_copper copper 3 6 #876B62
+weathered_cut_copper copper 3 6 #3A8E8C
+oxidized_cut_copper copper 3 6 #4C7F99
+waxed_cut_copper copper 3 6 #D87F33 cut_copper
+waxed_exposed_cut_copper copper 3 6 #876B62 exposed_cut_copper
+waxed_weathered_cut_copper copper 3 6 #3A8E8C weathered_cut_copper
+waxed_oxidized_cut_copper copper 3 6 #4C7F99 oxidized_cut_copper
+resin_brick resin_brick 1.5 6 #9F5224 resin_bricks
+cinnabar cinnabar 1.5 6 #993333
+polished_cinnabar cinnabar 1.5 6 #993333
+cinnabar_brick cinnabar 1.5 6 #993333 cinnabar_bricks
+sulfur sulfur 1.5 6 #E5E533
+polished_sulfur sulfur 1.5 6 #E5E533
+sulfur_brick sulfur 1.5 6 #E5E533 sulfur_bricks
+white_wool cloth 0.8 6 #FFFFFF wool_colored_white
+light_gray_wool cloth 0.8 6 #A0A0A0 wool_colored_silver
+gray_wool cloth 0.8 6 #4C4C4C wool_colored_gray
+black_wool cloth 0.8 6 #191919 wool_colored_black
+brown_wool cloth 0.8 6 #664C33 wool_colored_brown
+red_wool cloth 0.8 6 #993333 wool_colored_red
+orange_wool cloth 0.8 6 #D87F33 wool_colored_orange
+yellow_wool cloth 0.8 6 #E5E533 wool_colored_yellow
+lime_wool cloth 0.8 6 #7FCC19 wool_colored_lime
+green_wool cloth 0.8 6 #667F33 wool_colored_green
+cyan_wool cloth 0.8 6 #4C7F99 wool_colored_cyan
+light_blue_wool cloth 0.8 6 #6699D8 wool_colored_light_blue
+blue_wool cloth 0.8 6 #334CB2 wool_colored_blue
+purple_wool cloth 0.8 6 #7F3FB2 wool_colored_purple
+magenta_wool cloth 0.8 6 #B24CD8 wool_colored_magenta
+pink_wool cloth 0.8 6 #F27FA5 wool_colored_pink
+white_concrete stone 1.8 6 #FFFFFF
+light_gray_concrete stone 1.8 6 #A0A0A0
+gray_concrete stone 1.8 6 #4C4C4C
+black_concrete stone 1.8 6 #191919
+brown_concrete stone 1.8 6 #664C33
+red_concrete stone 1.8 6 #993333
+orange_concrete stone 1.8 6 #D87F33
+yellow_concrete stone 1.8 6 #E5E533
+lime_concrete stone 1.8 6 #7FCC19
+green_concrete stone 1.8 6 #667F33
+cyan_concrete stone 1.8 6 #4C7F99
+light_blue_concrete stone 1.8 6 #6699D8
+blue_concrete stone 1.8 6 #334CB2
+purple_concrete stone 1.8 6 #7F3FB2
+magenta_concrete stone 1.8 6 #B24CD8
+pink_concrete stone 1.8 6 #F27FA5

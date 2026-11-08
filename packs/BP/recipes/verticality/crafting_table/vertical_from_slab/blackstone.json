@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:blackstone_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:blackstone_slab"
+        ],
+        "unlock": [
+            "minecraft:blackstone_slab"
+        ],
+        "result": [
+            "verticality:blackstone_vertical_slab"
+        ]
+    }
+}

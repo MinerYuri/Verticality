@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:spruce_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:spruce_slab"
+        ],
+        "unlock": [
+            "minecraft:spruce_slab"
+        ],
+        "result": [
+            "verticality:spruce_vertical_slab"
+        ]
+    }
+}

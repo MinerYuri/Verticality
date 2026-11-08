@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 1,
+                    "name": "verticality:poplar_step"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

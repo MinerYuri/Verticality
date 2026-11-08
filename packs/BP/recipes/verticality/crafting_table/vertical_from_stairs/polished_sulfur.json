@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:polished_sulfur_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:polished_sulfur_stairs"
+        ],
+        "unlock": [
+            "minecraft:polished_sulfur_stairs"
+        ],
+        "result": [
+            "verticality:polished_sulfur_vertical_stairs"
+        ]
+    }
+}

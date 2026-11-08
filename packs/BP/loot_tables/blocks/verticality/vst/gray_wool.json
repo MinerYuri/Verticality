@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 1,
+                    "name": "verticality:gray_wool_vertical_stairs"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:end_stone_brick_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:end_stone_brick_slab"
+        ],
+        "unlock": [
+            "minecraft:end_stone_brick_slab"
+        ],
+        "result": [
+            "verticality:end_stone_brick_vertical_slab"
+        ]
+    }
+}

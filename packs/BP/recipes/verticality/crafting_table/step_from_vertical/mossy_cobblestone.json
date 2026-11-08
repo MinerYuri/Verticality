@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:mossy_cobblestone_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:mossy_cobblestone_vertical_step"
+        ],
+        "unlock": [
+            "verticality:mossy_cobblestone_vertical_step"
+        ],
+        "result": [
+            "verticality:mossy_cobblestone_step"
+        ]
+    }
+}

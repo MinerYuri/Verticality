@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "verticality:sulfur_brick_step"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "key": {
+            "#": "minecraft:sulfur_brick_slab"
+        },
+        "pattern": [
+            "##"
+        ],
+        "unlock": [
+            "minecraft:sulfur_brick_slab"
+        ],
+        "result": {
+            "item": "verticality:sulfur_brick_step",
+            "count": 4
+        }
+    }
+}

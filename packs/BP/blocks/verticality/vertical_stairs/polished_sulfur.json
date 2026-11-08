@@ -1,0 +1,110 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "verticality:polished_sulfur_vertical_stairs",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "verticality:ordinal_direction": ["northeast", "northwest", "southeast", "southwest"]
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/verticality/vst/polished_sulfur.json",
+            "minecraft:tags": ["is_pickaxe_item_destructible"],
+            "verticality:ordinal_direction": {},
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [-8, 0, -8],
+                    "size": [16, 16, 8]
+                },
+                {
+                    "origin": [0, 0, 0],
+                    "size": [8, 16, 8]
+                }
+            ],
+            "minecraft:sound": {
+                "sound": "sulfur"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5.00,"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:wooden_tier')"},"destroy_speed":0.75},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:stone_tier')"},"destroy_speed":0.38},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:copper_tier')"},"destroy_speed":0.30},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:iron_tier')"},"destroy_speed":0.25},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:diamond_tier')"},"destroy_speed":0.19},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:netherite_tier')"},"destroy_speed":0.17},{"item":{"tags":"q.all_tags('minecraft:is_pickaxe','minecraft:golden_tier')"},"destroy_speed":0.13}]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 30
+            },
+            "minecraft:map_color": "#E5E533",
+            "minecraft:item_visual": {
+                "geometry": "geometry.verticality.vertical_stairs",
+                "material_instances": {
+                    "*": {
+                        "render_method": "opaque",
+                        "texture": "polished_sulfur"
+                    }
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.verticality.vertical_stairs",
+                "culling": "verticality:culling.vertical_stairs",
+                "culling_layer": "verticality:culling_layer.vertical_stairs",
+                "culling_shape": "verticality:vertical_stairs"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "opaque",
+                    "texture": "polished_sulfur"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'northeast'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_stairs.northeast"
+                    },
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'southeast'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_stairs.southeast"
+                    },
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'southwest'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_stairs.southwest"
+                    },
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'northwest'",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.verticality.vertical_stairs.northwest"
+                    },
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            }
+        ]
+    }
+}

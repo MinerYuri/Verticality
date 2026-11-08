@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:jungle_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:jungle_stairs"
+        ],
+        "unlock": [
+            "minecraft:jungle_stairs"
+        ],
+        "result": [
+            "verticality:jungle_vertical_stairs"
+        ]
+    }
+}

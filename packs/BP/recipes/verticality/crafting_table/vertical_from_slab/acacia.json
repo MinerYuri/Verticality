@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:acacia_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:acacia_slab"
+        ],
+        "unlock": [
+            "minecraft:acacia_slab"
+        ],
+        "result": [
+            "verticality:acacia_vertical_slab"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:slabidentifier_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:resin_brick_step"
+        ],
+        "unlock": [
+            "verticality:resin_brick_step"
+        ],
+        "result": [
+            "verticality:resin_brick_vertical_step"
+        ]
+    }
+}

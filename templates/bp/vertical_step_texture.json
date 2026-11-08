@@ -1,0 +1,119 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "verticality:stepidentifier_vertical_step",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "verticality:ordinal_direction": ["northeast", "northwest", "southeast", "southwest"]
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/verticality/stp/stepidentifier.json",
+            "minecraft:tags": ["is_steptool_item_destructible"],
+            "verticality:ordinal_direction": {},
+            "minecraft:support": {
+                "shape": "fence"
+            },
+            "minecraft:collision_box": [
+                {
+                    "origin": [0, 0, -8],
+                    "size": [8, 16, 8]
+                }
+            ],
+            "minecraft:selection_box": {
+                "origin": [0, 0, -8],
+                "size": [8, 16, 8]
+            },
+            "minecraft:sound": {
+                "sound": "stepound"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": stepmining
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": stepexplosion
+            },
+            "minecraft:map_color": "stepcolor",
+            "minecraft:item_visual": {
+                "geometry": "geometry.verticality.vertical_step",
+                "material_instances": {
+                    "*": {
+                        "render_method": "opaque",
+                        "texture": "steptexture"
+                    },
+                    "side": {
+                        "render_method": "opaque",
+                        "texture": "sidetexture"
+                    },
+                    "top": {
+                        "render_method": "opaque",
+                        "texture": "toptexture"
+                    },
+                    "bottom": {
+                        "render_method": "opaque",
+                        "texture": "bottomtexture"
+                    }
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.verticality.vertical_step",
+                "culling": "verticality:culling.vertical_step",
+                "culling_layer": "verticality:culling_layer.vertical_step",
+                "culling_shape": "verticality:vertical_step",
+                "uv_lock": true
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "opaque",
+                    "texture": "steptexture"
+                },
+                "top": {
+                    "render_method": "opaque",
+                    "texture": "toptexture"
+                },
+                "bottom": {
+                    "render_method": "opaque",
+                    "texture": "bottomtexture"
+                }
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:light_dampening": 0
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'northeast'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'southeast'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'southwest'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+            },
+            {
+                "condition": "q.block_state('verticality:ordinal_direction') == 'northwest'",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+            }
+        ]
+    }
+}

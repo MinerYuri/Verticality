@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            slabtool
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 2,
+                    "name": "verticality:slabidentifier_vertical_slab"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

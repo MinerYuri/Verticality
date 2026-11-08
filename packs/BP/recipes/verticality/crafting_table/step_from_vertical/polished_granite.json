@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:polished_granite_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:polished_granite_vertical_step"
+        ],
+        "unlock": [
+            "verticality:polished_granite_vertical_step"
+        ],
+        "result": [
+            "verticality:polished_granite_step"
+        ]
+    }
+}

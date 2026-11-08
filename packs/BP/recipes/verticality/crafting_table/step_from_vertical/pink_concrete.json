@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:pink_concrete_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:pink_concrete_vertical_step"
+        ],
+        "unlock": [
+            "verticality:pink_concrete_vertical_step"
+        ],
+        "result": [
+            "verticality:pink_concrete_step"
+        ]
+    }
+}

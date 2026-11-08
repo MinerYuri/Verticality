@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 2,
+                    "name": "verticality:jungle_vertical_slab"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

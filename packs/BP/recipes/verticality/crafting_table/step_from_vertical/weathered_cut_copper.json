@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:weathered_cut_copper_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:weathered_cut_copper_vertical_step"
+        ],
+        "unlock": [
+            "verticality:weathered_cut_copper_vertical_step"
+        ],
+        "result": [
+            "verticality:weathered_cut_copper_step"
+        ]
+    }
+}

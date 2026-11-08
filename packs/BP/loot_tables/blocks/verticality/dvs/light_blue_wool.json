@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 2,
+                    "name": "verticality:light_blue_wool_vertical_slab"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

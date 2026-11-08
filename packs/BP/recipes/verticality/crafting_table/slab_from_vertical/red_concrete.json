@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:red_concrete_slab_from_vertical_slab"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:red_concrete_vertical_slab"
+        ],
+        "unlock": [
+            "verticality:red_concrete_vertical_slab"
+        ],
+        "result": [
+            "minecraft:red_concrete_slab"
+        ]
+    }
+}

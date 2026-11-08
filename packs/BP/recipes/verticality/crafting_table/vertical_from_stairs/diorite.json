@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:diorite_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:diorite_stairs"
+        ],
+        "unlock": [
+            "minecraft:diorite_stairs"
+        ],
+        "result": [
+            "verticality:diorite_vertical_stairs"
+        ]
+    }
+}

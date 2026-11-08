@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:deepslate_tile_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:deepslate_tile_stairs"
+        ],
+        "unlock": [
+            "minecraft:deepslate_tile_stairs"
+        ],
+        "result": [
+            "verticality:deepslate_tile_vertical_stairs"
+        ]
+    }
+}

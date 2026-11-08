@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:oxidized_cut_copper_stairs_from_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:oxidized_cut_copper_vertical_stairs"
+        ],
+        "unlock": [
+            "verticality:oxidized_cut_copper_vertical_stairs"
+        ],
+        "result": [
+            "minecraft:oxidized_cut_copper_stairs"
+        ]
+    }
+}

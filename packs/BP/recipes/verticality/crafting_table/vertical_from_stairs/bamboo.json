@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:bamboo_vertical_stairs"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:bamboo_stairs"
+        ],
+        "unlock": [
+            "minecraft:bamboo_stairs"
+        ],
+        "result": [
+            "verticality:bamboo_vertical_stairs"
+        ]
+    }
+}

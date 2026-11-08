@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:crimson_step_from_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:crimson_vertical_step"
+        ],
+        "unlock": [
+            "verticality:crimson_vertical_step"
+        ],
+        "result": [
+            "verticality:crimson_step"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            steptool
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 1,
+                    "name": "verticality:stepidentifier_vertical_step"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

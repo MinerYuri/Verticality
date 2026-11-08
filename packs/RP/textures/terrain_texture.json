@@ -1,0 +1,25 @@
+{
+    "resource_pack_name": "verticality",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "verticality:smooth_stone_vertical_slab": {
+            "textures": "textures/blocks/verticality/smooth_stone/vertical_slab"
+        },
+        "verticality:smooth_stone_vertical_slab_side": {
+            "textures": "textures/blocks/verticality/smooth_stone/vertical_slab_side"
+        },
+        "verticality:smooth_stone_vertical_slab_top": {
+            "textures": "textures/blocks/verticality/smooth_stone/vertical_slab_top"
+        },
+        "verticality:smooth_stone_vertical_slab_top_ew": {
+            "textures": "textures/blocks/verticality/smooth_stone/vertical_slab_top_ew"
+        },
+
+        "verticality:smooth_stone_step_side": {
+            "textures": "textures/blocks/verticality/smooth_stone/step_side"
+        },
+        "verticality:smooth_stone_vertical_step_top": {
+            "textures": "textures/blocks/verticality/smooth_stone/vertical_step_top"
+        }
+    }
+}

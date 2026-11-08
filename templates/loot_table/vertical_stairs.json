@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            stairtool
+            "entries": [
+                {
+                    "type": "item",
+                    "count": 1,
+                    "name": "verticality:stairidentifier_vertical_stairs"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

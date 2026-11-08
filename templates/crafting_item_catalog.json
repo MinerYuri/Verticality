@@ -1,0 +1,48 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "construction",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "name": "verticality:itemGroup.name.verticalStair",
+                            "icon": "verticality:cobblestone_vertical_stairs"
+                        },
+                        "items": [
+                            stairidentifier
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "verticality:itemGroup.name.verticalSlab",
+                            "icon": "verticality:smooth_stone_vertical_slab"
+                        },
+                        "items": [
+                            slabidentifier
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "verticality:itemGroup.name.step",
+                            "icon": "verticality:stone_step"
+                        },
+                        "items": [
+                            stepidentifier
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "verticality:itemGroup.name.verticalStep",
+                            "icon": "verticality:stone_vertical_step"
+                        },
+                        "items": [
+                            verticalstepidentifier
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

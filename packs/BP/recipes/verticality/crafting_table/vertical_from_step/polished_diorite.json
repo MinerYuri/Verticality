@@ -1,0 +1,18 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "verticality:slabidentifier_vertical_step"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "verticality:polished_diorite_step"
+        ],
+        "unlock": [
+            "verticality:polished_diorite_step"
+        ],
+        "result": [
+            "verticality:polished_diorite_vertical_step"
+        ]
+    }
+}
