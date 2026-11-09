@@ -11,7 +11,7 @@
             }
         },
         "components": {
-            "minecraft:loot": "loot_tables/blocks/verticality/vst/deepslate_tile.json",
+            "minecraft:loot": "loot_tables/blocks/verticality/empty.json",
             "minecraft:tags": ["is_pickaxe_item_destructible"],
             "verticality:ordinal_direction": {},
             "minecraft:support": {

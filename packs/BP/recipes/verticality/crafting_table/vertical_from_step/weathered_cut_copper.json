@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "verticality:slabidentifier_vertical_step"
+            "identifier": "verticality:weathered_cut_copper_vertical_step"
         },
         "tags": ["crafting_table"],
         "ingredients": [

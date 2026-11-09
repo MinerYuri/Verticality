@@ -90,8 +90,6 @@ for (let i = 0; i < stairIds.length; i++) {
     if (['oak','spruce','birch','jungle','acacia','dark_oak','mangrove','poplar','cherry','pale_oak','bamboo','bamboo_mosaic','crimson','warped'].includes(id)) tool = 'axe';
     if (id.includes('wool')) tool = 'shears';
 
-    const toolLoot = tool !== 'pickaxe' ? '' : `"conditions":[{"condition":"match_tool","minecraft:match_tool_filter_all": ["minecraft:is_${tool}"]}],`;
-
     if (tool === 'pickaxe' || tool === 'axe') hardness = [
         `${hardness}`,
         `"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_${tool}','minecraft:wooden_tier')"},"destroy_speed":${(hardness / hardnessMultiplier / 2).toFixed(2)}}`,
@@ -113,9 +111,6 @@ for (let i = 0; i < stairIds.length; i++) {
     } else {
         fs.writeFileSync(`packs/BP/blocks/verticality/vertical_stairs/${id}.json`, fs.readFileSync('templates/bp/vertical_stair.json', 'utf-8').replaceAll('stairidentifier', id).replaceAll('stairsound', sound).replaceAll('stairmining', hardness).replaceAll('stairexplosion', blastResistance * 5).replaceAll('staircolor', mapColor).replaceAll('stairtexture', texture).replaceAll('stairtool', tool));
     };
-
-    // LOOT TABLES
-    fs.writeFileSync(`packs/BP/loot_tables/blocks/verticality/vst/${id}.json`, fs.readFileSync('templates/loot_table/vertical_stairs.json', 'utf-8').replaceAll('stairidentifier', id).replaceAll('stairtool', toolLoot));
 
     // RECIPES
     fs.writeFileSync(`packs/BP/recipes/verticality/crafting_table/vertical_from_stairs/${id}.json`, fs.readFileSync('templates/recipe/crafting_table/vertical_from_stairs.json', 'utf-8').replaceAll('stairidentifier', id).replaceAll('vanillaidentifier', id));
@@ -173,8 +168,6 @@ for (let i = 0; i < slabIds.length; i++) {
     if (['oak','spruce','birch','jungle','acacia','dark_oak','mangrove','poplar','cherry','pale_oak','bamboo','bamboo_mosaic','crimson','warped'].includes(id)) tool = 'axe';
     if (id.includes('wool')) tool = 'shears';
 
-    const toolLoot = tool !== 'pickaxe' ? '' : `"conditions":[{"condition":"match_tool","minecraft:match_tool_filter_all": ["minecraft:is_${tool}"]}],`;
-
     if (tool === 'pickaxe' || tool === 'axe') hardness = [
         `${hardness}`,
         `"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_${tool}','minecraft:wooden_tier')"},"destroy_speed":${(hardness / hardnessMultiplier / 2).toFixed(2)}}`,
@@ -198,10 +191,6 @@ for (let i = 0; i < slabIds.length; i++) {
         fs.writeFileSync(`packs/BP/blocks/verticality/vertical_slabs/${id}.json`, fs.readFileSync('templates/bp/vertical_slab.json', 'utf-8').replaceAll('slabidentifier', id).replaceAll('slabsound', sound).replaceAll('slabmining', hardness).replaceAll('slabexplosion', blastResistance * 5).replaceAll('slabcolor', mapColor).replaceAll('slabtexture', texture).replaceAll('slabtool', tool));
         fs.writeFileSync(`packs/BP/blocks/verticality/double_vertical_slabs/${id}.json`, fs.readFileSync('templates/bp/double_vertical_slab.json', 'utf-8').replaceAll('slabidentifier', id).replaceAll('slabsound', sound).replaceAll('slabmining', hardness).replaceAll('slabexplosion', blastResistance * 5).replaceAll('slabcolor', mapColor).replaceAll('slabtexture', texture).replaceAll('slabtool', tool));
     };
-
-    // LOOT TABLES
-    fs.writeFileSync(`packs/BP/loot_tables/blocks/verticality/vsl/${id}.json`, fs.readFileSync('templates/loot_table/vertical_slab.json', 'utf-8').replaceAll('slabidentifier', id).replaceAll('slabtool', toolLoot));
-    fs.writeFileSync(`packs/BP/loot_tables/blocks/verticality/dvs/${id}.json`, fs.readFileSync('templates/loot_table/double_vertical_slab.json', 'utf-8').replaceAll('slabidentifier', id).replaceAll('slabtool', toolLoot));
 
     // RECIPES
     fs.writeFileSync(`packs/BP/recipes/verticality/crafting_table/vertical_from_slab/${id}.json`, fs.readFileSync('templates/recipe/crafting_table/vertical_from_slab.json', 'utf-8').replaceAll('slabidentifier', id).replaceAll('vanillaidentifier', id));
@@ -239,8 +228,6 @@ for (let i = 0; i < stepIds.length; i++) {
     if (['oak','spruce','birch','jungle','acacia','dark_oak','mangrove','poplar','cherry','pale_oak','bamboo','bamboo_mosaic','crimson','warped'].includes(id)) tool = 'axe';
     if (id.includes('wool')) tool = 'shears';
 
-    const toolLoot = tool !== 'pickaxe' ? '' : `"conditions":[{"condition":"match_tool","minecraft:match_tool_filter_all": ["minecraft:is_${tool}"]}],`;
-
     if (tool === 'pickaxe' || tool === 'axe') hardness = [
         `${hardness}`,
         `"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_${tool}','minecraft:wooden_tier')"},"destroy_speed":${(hardness / hardnessMultiplier / 2).toFixed(2)}}`,
@@ -262,9 +249,6 @@ for (let i = 0; i < stepIds.length; i++) {
     } else {
         fs.writeFileSync(`packs/BP/blocks/verticality/steps/${id}.json`, fs.readFileSync('templates/bp/step.json', 'utf-8').replaceAll('stepidentifier', id).replaceAll('stepsound', sound).replaceAll('stepmining', hardness).replaceAll('stepexplosion', blastResistance * 5).replaceAll('stepcolor', mapColor).replaceAll('steptexture', texture).replaceAll('steptool', tool));
     };
-
-    // LOOT TABLES
-    fs.writeFileSync(`packs/BP/loot_tables/blocks/verticality/stp/${id}.json`, fs.readFileSync('templates/loot_table/step.json', 'utf-8').replaceAll('stepidentifier', id).replaceAll('steptool', toolLoot));
 
     // RECIPES
     fs.writeFileSync(`packs/BP/recipes/verticality/crafting_table/step/${id}.json`, fs.readFileSync('templates/recipe/crafting_table/step.json', 'utf-8').replaceAll('stepidentifier', id).replaceAll('vanillaidentifier', id));
@@ -298,8 +282,6 @@ for (let i = 0; i < verticalStepIds.length; i++) {
     if (['oak','spruce','birch','jungle','acacia','dark_oak','mangrove','poplar','cherry','pale_oak','bamboo','bamboo_mosaic','crimson','warped'].includes(id)) tool = 'axe';
     if (id.includes('wool')) tool = 'shears';
 
-    const toolLoot = tool !== 'pickaxe' ? '' : `"conditions":[{"condition":"match_tool","minecraft:match_tool_filter_all": ["minecraft:is_${tool}"]}],`;
-
     if (tool === 'pickaxe' || tool === 'axe') hardness = [
         `${hardness}`,
         `"item_specific_speeds":[{"item":{"tags":"q.all_tags('minecraft:is_${tool}','minecraft:wooden_tier')"},"destroy_speed":${(hardness / hardnessMultiplier / 2).toFixed(2)}}`,
@@ -321,9 +303,6 @@ for (let i = 0; i < verticalStepIds.length; i++) {
     } else {
         fs.writeFileSync(`packs/BP/blocks/verticality/vertical_steps/${id}.json`, fs.readFileSync('templates/bp/vertical_step.json', 'utf-8').replaceAll('stepidentifier', id).replaceAll('stepsound', sound).replaceAll('stepmining', hardness).replaceAll('stepexplosion', blastResistance * 5).replaceAll('stepcolor', mapColor).replaceAll('steptexture', texture).replaceAll('steptool', tool));
     };
-
-    // LOOT TABLES
-    fs.writeFileSync(`packs/BP/loot_tables/blocks/verticality/vsp/${id}.json`, fs.readFileSync('templates/loot_table/vertical_step.json', 'utf-8').replaceAll('stepidentifier', id).replaceAll('steptool', toolLoot));
 
     // RECIPES
     fs.writeFileSync(`packs/BP/recipes/verticality/crafting_table/vertical_from_step/${id}.json`, fs.readFileSync('templates/recipe/crafting_table/vertical_from_step.json', 'utf-8').replaceAll('stepidentifier', id).replaceAll('vanillaidentifier', id));

@@ -1,3 +1,3 @@
 import "verticalSlab";
 import "ordinalDirection";
-import "extraLoot";
+import "doubleSlab";

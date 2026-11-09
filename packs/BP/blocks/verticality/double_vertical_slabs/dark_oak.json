@@ -16,12 +16,9 @@
             }
         },
         "components": {
-            "minecraft:loot": "loot_tables/blocks/verticality/dvs/dark_oak.json",
+            "minecraft:loot": "loot_tables/blocks/verticality/empty.json",
             "minecraft:tags": ["is_axe_item_destructible"],
-            "verticality:extra_loot": {
-                "tool": "axe",
-                "amount": 1
-            },
+            "verticality:double_slab": {},
             "minecraft:sound": {
                 "sound": "wood"
             },

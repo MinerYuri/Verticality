@@ -15,7 +15,7 @@
             }
         },
         "components": {
-            "minecraft:loot": "loot_tables/blocks/verticality/vsl/polished_granite.json",
+            "minecraft:loot": "loot_tables/blocks/verticality/empty.json",
             "minecraft:tags": ["is_pickaxe_item_destructible"],
             "verticality:vertical_slab": {},
             "minecraft:support": {
